@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #191919;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rec{
+    
+    z-index: 20;
+    height: 100px;
+    width: 180px;
+    background-color: #5ebcfa;
+    border-bottom-left-radius:14px ;
+    border-top-left-radius: 14px;
+    transform: translateX(60px);
+}
+.triangle_1{
+    
+    width:0;
+    height:0;
+    z-index: 20;
+    /* scale: 1.5; */
+    transform: translateY(-50px) translateX(0px);
+    /* background-color: #5ebcfa; */
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right:100px solid #5ebcfa;
+}
+
+.triangle_2{
+    
+    z-index: 20;
+    width:0;
+    height:0;
+    /* scale: 1.5; */
+    transform: translateY(50px) translateX(-100px);
+    /* background-color: #5ebcfa; */
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right:100px solid #5ebcfa;
+    
+}
+.border_1{
+    height: 120px;
+    width: 120px;
+    border-right:20px solid #5ebcfa ;
+    border-bottom:20px solid #5ebcfa  ;
+    border-top: 20px solid #5ebcfa ;
+    border-left: 20px solid transparent ;
+    transform: translateY(-400px) translateX(340px);
+    border-radius: 50%;
+}
+.border_2{
+    height: 220px;
+    width: 220px;
+    border-right:20px solid #5ebcfa ;
+    border-bottom:20px solid #5ebcfa  ;
+    border-top: 20px solid #5ebcfa ;
+    border-left: 20px solid transparent ;
+    transform: translateY(-610px) translateX(290px);
+    border-radius: 50%;
+
+}
+.border_3{
+    height: 320px;
+    width: 320px;
+    border-right:20px solid #5ebcfa ;
+    border-bottom:20px solid #5ebcfa  ;
+    border-top: 20px solid #5ebcfa ;
+    border-left: 20px solid transparent ;
+    transform: translateY(-920px) translateX(240px);
+    border-radius: 50%;
+}
+.black_box{
+    width: 170px;
+    height: 400px;
+    background-color: #fff;
+    transform: translateY(16px) translateX(-190px);
+    background-color: #191919;
+    z-index: 10;
+
+}
